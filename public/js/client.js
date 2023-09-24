@@ -1279,7 +1279,7 @@ async function whoAreYou() {
         allowOutsideClick: false,
         allowEscapeKey: false,
         background: swalBackground,
-        title: 'MiroTalk P2P',
+        title: 'Code-X',
         position: 'center',
         input: 'text',
         inputPlaceholder: 'Enter your name',
@@ -4746,7 +4746,7 @@ function shareRoomByEmail() {
             const selectedDateTime = document.getElementById('datetimePicker').value;
             const newLine = '%0D%0A%0D%0A';
             const email = '';
-            const emailSubject = `Please join our MiroTalk P2P Video Chat Meeting`;
+            const emailSubject = `Please join our Code-X P2P Video Chat Meeting`;
             const emailBody = `The meeting is scheduled at: ${newLine} DateTime: ${selectedDateTime} ${newLine} Click to join: ${myRoomUrl} ${newLine}`;
             document.location = 'mailto:' + email + '?subject=' + emailSubject + '&body=' + emailBody;
         },
@@ -8258,14 +8258,13 @@ function showAbout() {
         position: 'center',
         title: '<strong>WebRTC P2P</strong>',
         imageAlt: 'mirotalk-about',
-        imageUrl: aboutImg,
         customClass: { image: 'img-about' },
         html: `
         <br/>
         <div id="about">
             <b><a id="github-button" data-umami-event="GitHub button" href="https://github.com/miroslavpejic85/mirotalk" target="_blank">Open Source</a></b> project
             <br/><br/>
-            <button id="sponsor-button" data-umami-event="Sponsor button" class="pulsate" onclick="window.open('https://github.com/sponsors/miroslavpejic85?o=esb')"><i class="${className.heart}" ></i>&nbsp;Support</button>
+            <button id="sponsor-button" data-umami-event="Sponsor button" class="pulsate" onclick="window.open('https://github.com/sponsors/shivanshu814')"><i class="${className.heart}" ></i>&nbsp;Support</button>
             <br /><br />
             Author:<a id="linkedin-button" data-umami-event="Linkedin button" href="https://www.linkedin.com/in/shivanshu814/" target="_blank"> Code-X</a>
         </div>
